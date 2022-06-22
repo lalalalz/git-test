@@ -16,4 +16,11 @@ dependencies {
 
 test {
     useJUnitPlatform()
-}
+}ed8e4a8c0fdc3243a433d019b8bb10b85a2e78e1
+
+git filter-branch --env-filter \
+    'if [ $GIT_COMMIT = ed8e4a8c0fdc3243a433d019b8bb10b85a2e78e1 ]
+    then
+        export GIT_AUTHOR_DATE="Tue Jun 22 11:00:00 2020 +0900"
+        export GIT_COMMITTER_DATE="Tue Jun 22 11:00:00 2020 +0900"
+    fi'
