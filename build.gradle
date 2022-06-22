@@ -19,8 +19,8 @@ test {
 }ed8e4a8c0fdc3243a433d019b8bb10b85a2e78e1
 
 git filter-branch --env-filter \
-    'if [ $GIT_COMMIT = ed8e4a8c0fdc3243a433d019b8bb10b85a2e78e1 ]
+    'if [ $GIT_COMMIT = f207d17d60fac8694d828d46494e90610e3a9275 ]
     then
-        export GIT_AUTHOR_DATE="Tue Jun 22 11:00:00 2020 +0900"
-        export GIT_COMMITTER_DATE="Tue Jun 22 11:00:00 2020 +0900"
+        export GIT_AUTHOR_DATE="Wed Jun 22 11:00:00 2020 +0900"
+        export GIT_COMMITTER_DATE="Wed Jun 22 11:00:00 2020 +0900"
     fi'
